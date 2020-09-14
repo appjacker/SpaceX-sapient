@@ -1,0 +1,23 @@
+ul{
+    list-style: none;
+}
+.card-title.h5{
+    color:#5a5ae1;
+}
+
+img.card-img-top{
+    background-color: #e9ecef;
+    width:80%;
+    align-items: center;
+margin: 15px 15px 0px 25px;
+}
+.card {
+    margin-bottom: 20px;
+}
+.filter-head p{
+    text-align: center !important;
+    border-bottom: 1px solid gray;
+    font-size: 14px;
+    width:50%;
+    margin-left: 50px;
+}
