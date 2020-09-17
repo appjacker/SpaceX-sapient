@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container'
 import { Col, Row } from 'react-bootstrap';
 import Grid from './Grid';
-import { SpacexService } from '../Service/SpacexService';
+import { SpacexService } from '../service/spacexService';
 import Footer from './Footer/Footer'
 
 import '../../static/index.css';
