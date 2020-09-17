@@ -171,7 +171,8 @@ class Home extends Component {
                         </Card>
                     </Col>
                     <Col xs={12} md={9}>
-                        {this.state.missions && <Grid projects={this.state.missions}></Grid>}   
+                        {this.state.missions && <Grid projects={this.state.missions}></Grid>} 
+                        {this.state.missions && this.state.missions.length === 0 && <h5 className="no-missions">No Missions Found, Please re-apply filters</h5>} 
                         {loading === true && <p className="loading"></p>}
                     </Col>
                 </Row>

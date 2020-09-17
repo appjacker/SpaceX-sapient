@@ -31,7 +31,7 @@ img.card-img-top{
     border-bottom: 1px solid gray;
     font-size: 14px;
     width:50%;
-    margin-left: 50px;
+    margin-left: 65px;
 }
 .btn.btn-success {
     cursor: pointer;
@@ -57,11 +57,34 @@ ul{
 strong{
     font-size: 14px !important;
 }
+.no-missions{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 9999999;
+}
 @media (max-width: 286px) {
     .btn.btn-success {
         cursor: pointer;
         margin-bottom: 10px;
         align-items: center;
         margin-left: 10%;
+    }
+}
+
+@media (max-width: 360px) {
+    .btn.btn-success {
+        cursor: pointer;
+        margin-bottom: 10px;
+        align-items: center;
+        margin-left: 10%;
+    }
+    img.card-img-top{
+        background-color: #e9ecef;
+        width:80%;
+        align-items: center;
+        margin: 15px 15px 0px 20px;
     }
 }
