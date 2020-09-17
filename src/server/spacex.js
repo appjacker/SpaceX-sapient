@@ -6,13 +6,13 @@ import { StaticRouter, matchPath } from "react-router-dom"
 import serialize from "serialize-javascript"
 import App from '../shared/App'
 import routes from '../shared/routes'
-const port = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3000;
 
 
 const app = express()
 
 app.use(cors())
-app.use(express.static("build"))
+app.use(express.static("public"))
 
 app.get("*", (req, res, next) => {
   if(req.url === '/favicon.ico'){
@@ -57,6 +57,6 @@ app.get("*", (req, res, next) => {
   }).catch(next)
 })
 
-app.listen(port, () => {
-  console.log(`Server is listening on port: 3000`)
+app.listen(PORT, () => {
+  console.log(`Server is listening on port ${PORT}`)
 });

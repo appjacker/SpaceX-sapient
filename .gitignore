@@ -2,5 +2,5 @@ node_modules
 .DS_Store
 public
 server.js
-style.js
+style.css
 build

@@ -1,1 +1,1 @@
-web: webpack && node build/server.js
+web: webpack && node server.js
