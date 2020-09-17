@@ -1,11 +1,11 @@
 {
   "name": "spacex-missions",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "spacex.js",
   "scripts": {
     "start": "webpack && nodemon server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack && server.js"
   },
   "engines": {
     "node": "12.x"

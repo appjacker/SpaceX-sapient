@@ -7,7 +7,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const browserConfig = {
   entry: './src/client/index.js',
   output: {
-    path: path.resolve(__dirname, 'public'),
+    path: path.resolve(__dirname, 'build'),
     filename: 'bundle.js',
     publicPath: '/'
   },
@@ -48,12 +48,12 @@ const browserConfig = {
 }
 
 const serverConfig = {
-  entry: './src/server/index.js',
+  entry: './src/server/spacex.js',
   target: 'node',
   externals: [nodeExternals()],
   output: {
     path: __dirname,
-    filename: 'server.js',
+    filename: 'spacex.js',
     publicPath: '/'
   },
   mode: 'production',
