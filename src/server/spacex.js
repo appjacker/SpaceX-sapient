@@ -6,7 +6,7 @@ import { StaticRouter, matchPath } from "react-router-dom"
 import serialize from "serialize-javascript"
 import App from '../shared/App'
 import routes from '../shared/routes'
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 4000;
 
 
 const app = express()
