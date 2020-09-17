@@ -53,7 +53,7 @@ const serverConfig = {
   externals: [nodeExternals()],
   output: {
     path: __dirname,
-    filename: 'spacex.js',
+    filename: 'server.js',
     publicPath: '/'
   },
   mode: 'production',
