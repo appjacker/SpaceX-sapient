@@ -1,0 +1,70 @@
+p{
+    text-align: center;
+}
+body{
+    background-color: #e9ecef !important;
+}
+ul{
+    list-style: none;
+}
+.card-title.h5{
+    color:#5a5ae1;
+}
+.loading{
+    background: url(data:image/gif;base64,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) no-repeat center center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 9999999;
+}
+
+img.card-img-top{
+    background-color: #e9ecef;
+    width:80%;
+    align-items: center;
+    margin: 15px 15px 0px 20px;
+}
+.card {
+    margin-bottom: 20px;
+}
+.filter-head p{
+    text-align: center !important;
+    border-bottom: 1px solid gray;
+    font-size: 14px;
+    width:50%;
+    margin-left: 50px;
+}
+.btn.btn-success {
+    cursor: pointer;
+    margin-bottom: 10px;
+    align-items: center;
+    margin-left: 30px;
+}
+input.active {
+    background-color: #8800BA !important;
+}
+span{
+    margin-left:10px;
+    font-size: 13px;
+}
+ul{
+    list-style: disc !important;
+}
+.mission-list{
+    margin-left: 5px;
+    font-size: 13px;
+    width:100%;
+}
+strong{
+    font-size: 14px !important;
+}
+@media (max-width: 286px) {
+    .btn.btn-success {
+        cursor: pointer;
+        margin-bottom: 10px;
+        align-items: center;
+        margin-left: 10%;
+    }
+}

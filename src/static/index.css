@@ -1,0 +1,67 @@
+body{
+    background-color: #e9ecef !important;
+}
+ul{
+    list-style: none;
+}
+.card-title.h5{
+    color:#5a5ae1;
+}
+.loading{
+    background: url('/src/static/spinner.gif') no-repeat center center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 9999999;
+}
+
+img.card-img-top{
+    background-color: #e9ecef;
+    width:80%;
+    align-items: center;
+    margin: 15px 15px 0px 20px;
+}
+.card {
+    margin-bottom: 20px;
+}
+.filter-head p{
+    text-align: center !important;
+    border-bottom: 1px solid gray;
+    font-size: 14px;
+    width:50%;
+    margin-left: 50px;
+}
+.btn.btn-success {
+    cursor: pointer;
+    margin-bottom: 10px;
+    align-items: center;
+    margin-left: 30px;
+}
+input.active {
+    background-color: #8800BA !important;
+}
+span{
+    margin-left:10px;
+    font-size: 13px;
+}
+ul{
+    list-style: disc !important;
+}
+.mission-list{
+    margin-left: 5px;
+    font-size: 13px;
+    width:100%;
+}
+strong{
+    font-size: 14px !important;
+}
+@media (max-width: 286px) {
+    .btn.btn-success {
+        cursor: pointer;
+        margin-bottom: 10px;
+        align-items: center;
+        margin-left: 10%;
+    }
+}
