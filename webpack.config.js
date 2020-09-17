@@ -52,7 +52,7 @@ const serverConfig = {
   target: 'node',
   externals: [nodeExternals()],
   output: {
-    path: __dirname,
+    path: path.resolve(__dirname, 'build'),
     filename: 'server.js',
     publicPath: '/'
   },
@@ -66,7 +66,7 @@ const serverConfig = {
         use: [{
           loader: MiniCssExtractPlugin.loader,
           options: {
-            path: path.resolve(__dirname, 'public'),
+            path: path.resolve(__dirname, 'build'),
             publicPath: '/'
           },
         },
