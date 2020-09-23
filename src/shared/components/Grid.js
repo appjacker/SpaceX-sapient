@@ -35,7 +35,7 @@ const Grid = (props) => {
                                         <div className="row">
                                             <strong>
                                                 Successful Launch:
-                                            </strong> <span>{list.launch_success}</span>
+                                            </strong> <span>{list.launch_success===true?'True':'False'}</span>
                                         </div>
                                         <div className="row">
                                             <strong>
