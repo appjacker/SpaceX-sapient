@@ -38,9 +38,12 @@ img.card-img-top{
     margin-bottom: 10px;
     align-items: center;
     margin-left: 30px;
+    background-color: #a8c971;
+    border-color: #a8c971;
 }
 input.active {
-    background-color: #8800BA !important;
+    background-color: #28a745 !important;
+    border-color: #28a745 !important;
 }
 span{
     margin-left:10px;

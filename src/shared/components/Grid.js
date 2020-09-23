@@ -40,7 +40,7 @@ const Grid = (props) => {
                                         <div className="row">
                                             <strong>
                                             Successful Landing:
-                                            </strong> <span>{list.launch_landing}</span>
+                                            </strong> <span>{list.rocket.first_stage.cores[0].land_success === true?'True':'False'}</span>
                                         </div>
                                         </Container>
                                     </Card.Text>
